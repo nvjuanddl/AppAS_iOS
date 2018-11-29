@@ -15,6 +15,7 @@
 		3D6918A121B04071009FF22C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D69189F21B04071009FF22C /* LaunchScreen.storyboard */; };
 		3D6918AC21B04071009FF22C /* AppASTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6918AB21B04071009FF22C /* AppASTests.swift */; };
 		3D6918B721B04071009FF22C /* AppASUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6918B621B04071009FF22C /* AppASUITests.swift */; };
+		3D6918C521B042E4009FF22C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6918C421B042E4009FF22C /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3D6918B221B04071009FF22C /* AppASUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppASUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6918B621B04071009FF22C /* AppASUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppASUITests.swift; sourceTree = "<group>"; };
 		3D6918B821B04071009FF22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6918C421B042E4009FF22C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3D69189F21B04071009FF22C /* LaunchScreen.storyboard */,
 				3D6918A221B04071009FF22C /* Info.plist */,
 				3D69189A21B0406F009FF22C /* AppAS.xcdatamodeld */,
+				3D6918C421B042E4009FF22C /* Product.swift */,
 			);
 			path = AppAS;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D69189621B0406F009FF22C /* ViewController.swift in Sources */,
+				3D6918C521B042E4009FF22C /* Product.swift in Sources */,
 				3D69189421B0406F009FF22C /* AppDelegate.swift in Sources */,
 				3D69189C21B0406F009FF22C /* AppAS.xcdatamodeld in Sources */,
 			);
