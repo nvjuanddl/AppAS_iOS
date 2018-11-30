@@ -6,7 +6,7 @@ target 'AppAS' do
   use_frameworks!
 
   pod 'SDWebImage'
-  pod 'SKPhotoBrowser'
+  pod 'SKPhotoBrowser' , '5.0.0'
 
   # Pods for AppAS
 

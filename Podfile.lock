@@ -2,11 +2,11 @@ PODS:
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
-  - SKPhotoBrowser (6.0.0)
+  - SKPhotoBrowser (5.0.0)
 
 DEPENDENCIES:
   - SDWebImage
-  - SKPhotoBrowser
+  - SKPhotoBrowser (= 5.0.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -15,8 +15,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
-  SKPhotoBrowser: 76eb862685761707b5745fde7762757966565e07
+  SKPhotoBrowser: fe936f878955a568c726bf05d14e1d2717d91ce0
 
-PODFILE CHECKSUM: d660dbda12fa6a1a8addfe50d7381f33574f8962
+PODFILE CHECKSUM: 545f96e15e10e0074b662498d07403af2f74ee42
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.2
