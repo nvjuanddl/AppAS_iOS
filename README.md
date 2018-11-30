@@ -1,6 +1,3 @@
-
-Capas de la Aplicación 
--
 AppDelegate
 -
 - Carga el archivo CSV y lo parsea.
