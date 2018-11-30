@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0F4DD121B170D10078522D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3D0F4DD021B170D00078522D /* README.md */; };
 		3D69189421B0406F009FF22C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69189321B0406F009FF22C /* AppDelegate.swift */; };
 		3D69189921B0406F009FF22C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D69189721B0406F009FF22C /* Main.storyboard */; };
 		3D69189C21B0406F009FF22C /* AppAS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D69189A21B0406F009FF22C /* AppAS.xcdatamodeld */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D0F4DD021B170D00078522D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		3D69189021B0406F009FF22C /* AppAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D69189321B0406F009FF22C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D69189821B0406F009FF22C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		3D69189221B0406F009FF22C /* AppAS */ = {
 			isa = PBXGroup;
 			children = (
+				3D0F4DD021B170D00078522D /* README.md */,
 				3D69189321B0406F009FF22C /* AppDelegate.swift */,
 				3D69189721B0406F009FF22C /* Main.storyboard */,
 				3D69189D21B04071009FF22C /* Assets.xcassets */,
@@ -287,6 +290,7 @@
 			files = (
 				3D6918A121B04071009FF22C /* LaunchScreen.storyboard in Resources */,
 				3D69189E21B04071009FF22C /* Assets.xcassets in Resources */,
+				3D0F4DD121B170D10078522D /* README.md in Resources */,
 				3D69189921B0406F009FF22C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,7 +577,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3YK5857UA;
 				INFOPLIST_FILE = AppAS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.appas.com.AppAS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -589,7 +596,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3YK5857UA;
 				INFOPLIST_FILE = AppAS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.appas.com.AppAS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -606,7 +616,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3YK5857UA;
 				INFOPLIST_FILE = AppASTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.appas.com.AppASTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -624,7 +638,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3YK5857UA;
 				INFOPLIST_FILE = AppASTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.appas.com.AppASTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -641,7 +659,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3YK5857UA;
 				INFOPLIST_FILE = AppASUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.appas.com.AppASUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -658,7 +680,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F3YK5857UA;
 				INFOPLIST_FILE = AppASUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.appas.com.AppASUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
